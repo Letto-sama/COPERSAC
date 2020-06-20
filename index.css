@@ -1,0 +1,84 @@
+* {
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+}
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    line-height: 1.8;
+}
+.barra-navegacion {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 100%;
+    padding-left: 3em;
+}
+.menu {
+    font-size: 20px;
+    padding-left: 28em;
+    padding-top: 0.5em;
+    min-width: 50px;
+    min-height: 20px;
+}
+.menu a{
+    padding: 4em 1em 1em 1em;
+    margin: 1em 0em 3em 0em;
+}
+.menu a:hover {
+    background-color: #2980b9;
+    color: white;
+}
+/*----------------------------------NOSOTROS----------------------------------*/
+.fas {
+    font-size: 50px;
+}
+.seccion-nosotros {
+    display: grid;
+    grid-template-rows: 20% 80%;
+    text-align: center;
+}
+.seccion-nosotros-titulo {
+    font-size: 40px;
+    padding: 0 5em 0 5em;
+}
+.seccion-nosotros-texto {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.seccion-nosotros-texto p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+.seccion-nosotros-texto div {
+    padding: 2em 1em 2em 1em;
+}
+/*----------------------------------NUMEROS----------------------------------*/
+.seccion-numeros {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 100%;
+    background: #2980b9;
+    color: white;
+    text-align: center;
+}
+/*----------------------------------SERVICIOS----------------------------------*/
+.seccion-servicios {
+    text-align: center;
+}
+.seccion-servicios-titulo {
+    font-size: 40px;
+    padding: 1em 5em 1em 5em;
+}
+.seccion-servicios-detalle {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 50% 50%;
+    padding: 0 0 3em 0;
+}
+/*----------------------------------FOOTER----------------------------------*/
+.footer {
+    background: black;
+    color: white;
+    text-align: center;
+}
